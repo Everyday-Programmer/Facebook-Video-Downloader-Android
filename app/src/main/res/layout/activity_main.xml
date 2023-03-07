@@ -15,7 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_above="@id/download"
         android:layout_marginBottom="20sp"
-        android:hint="Paster your URL"
+        android:hint="Paste your URL"
         android:id="@+id/urlLayout"
         app:boxCornerRadiusTopStart="15sp"
         app:boxCornerRadiusTopEnd="15sp"
