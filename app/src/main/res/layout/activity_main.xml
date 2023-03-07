@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/download"
+        android:layout_marginBottom="20sp"
+        android:hint="Paster your URL"
+        android:id="@+id/urlLayout"
+        app:boxCornerRadiusTopStart="15sp"
+        app:boxCornerRadiusTopEnd="15sp"
+        app:boxCornerRadiusBottomStart="15sp"
+        app:boxCornerRadiusBottomEnd="15sp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/urlET"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/download"
+        android:text="Download"/>
+
+</RelativeLayout>
